@@ -8,6 +8,6 @@ class Car
   end
 
   def accelerate(speed)
-  	@speed = speed
+  	@speed += speed
   end
 end
